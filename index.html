@@ -498,7 +498,8 @@ let tourTimer = null, tourIdx = 0, tourOn = false;
 function applayCam(){
   world.style.transform = `translate(${cam.x}px,${cam.y}px) scale(${cam.s})`;
   world.style.setProperty("--inv", (1/cam.s).toFixed(4));
-  world.classList.toggle("nolbl", cam.s < fitScale*1.35);
+  const th = (view.key==="general") ? 0.55 : fitScale*0.95;
+  world.classList.toggle("nolbl", cam.s < th);
 }
 function sizeWorld(v){
   world.style.width = v.w+"px";
