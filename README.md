@@ -1,6 +1,6 @@
-# Agua Viva · Experiencia interactiva del agua en el Maule
+# Fluir con-ciencia, gotas de vida: Experiencias Hídricas en el Maule
 
-Propuesta de **7 módulos interactivos sobre el agua** para el **sector de entrada del Jardín Botánico & Arboretum de la Universidad de Talca**: mapa interactivo con recorrido, distribución, interacciones y guión museográfico preliminar.
+**Fluir con-ciencia, gotas de vida** — propuesta de **7 módulos interactivos sobre el agua** para el **sector de entrada del Jardín Botánico & Arboretum de la Universidad de Talca**: mapa interactivo con recorrido, distribución, interacciones y guión museográfico preliminar.
 
 ## Publicación
 
@@ -11,7 +11,7 @@ Propuesta de **7 módulos interactivos sobre el agua** para el **sector de entra
 | Archivo | Descripción |
 |---|---|
 | `index.html` | Mapa interactivo (autocontenido, sin dependencias). Incluye vista del sector de entrada y vista general, recorrido guiado 1→7, fichas por módulo y versión imprimible. |
-| `plano_agua_viva.pdf` | Plano de la propuesta en PDF (generado desde `index.html`). |
+| `plano_fluir_con_ciencia.pdf` | Plano de la propuesta en PDF (generado desde `index.html`). |
 | `documento/documento_postulacion.html` | Documento de postulación: descripción detallada de la experiencia + guión museográfico preliminar. |
 | `documento/documento_postulacion.pdf` | El mismo documento en PDF (incluye la figura del plano). |
 | `documento/documento_postulacion.docx` | Versión editable para copiar/pegar en formularios (solo texto; la figura va en el PDF). |
@@ -40,7 +40,7 @@ Todo el contenido editable está en `index.html`:
 
 ```bash
 "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --headless=new --disable-gpu \
-  --print-to-pdf=plano_agua_viva.pdf --no-pdf-header-footer index.html
+  --print-to-pdf=plano_fluir_con_ciencia.pdf --no-pdf-header-footer index.html
 
 "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --headless=new --disable-gpu \
   --print-to-pdf=documento/documento_postulacion.pdf --no-pdf-header-footer documento/documento_postulacion.html
